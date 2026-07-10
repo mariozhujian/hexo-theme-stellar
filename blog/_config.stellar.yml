@@ -1,7 +1,6 @@
 preconnect:
   - https://gcore.jsdelivr.net
   - https://unpkg.com
-  - https://cdn.bootcdn.net
 
 inject:
   head:
@@ -11,7 +10,6 @@ inject:
     - <link rel="manifest" href="/assets/xaoxuu/favicon/site.webmanifest">
     - <link rel="shortcut icon" href="/assets/xaoxuu/favicon/favicon.ico">
     - <meta name="theme-color" content="#f8f8f8">
-    - <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css" media="all" />
 
 logo:
   icon: /assets/icon.svg
@@ -55,6 +53,9 @@ article:
 
 
 style:
+  header_prefix:
+    h2: ''
+    h3: ''
   text-align: justify
   smooth_scroll: false
   codeblock:
@@ -62,7 +63,35 @@ style:
   font-size:
     body: 1rem
   font-family:
-    logo: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
-    body: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
-    code: '"LXGW WenKai Screen", Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
-    codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+    logo: 'system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif'
+    body: 'system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif'
+    code: 'Menlo, Monaco, Consolas, system-ui, monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, system-ui, monospace, sans-serif'
+
+
+comments:
+  service: giscus
+  comment_title: 快来参与讨论吧~
+  lazyload: true
+  giscus:
+    src: https://giscus.app/client.js
+    data-repo: mariozhujian/blog-comments
+    data-repo-id: R_kgDOTUO3hw
+    data-category: Announcements
+    data-category-id: DIC_kwDOTUO3h84DA4xV
+    data-mapping: title
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
+
+plugins:
+  copycode:
+    enable: true
+    default_text: 复制
+    success_text: 已复制
+    toast: 复制成功
