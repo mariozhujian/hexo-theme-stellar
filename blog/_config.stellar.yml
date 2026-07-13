@@ -57,7 +57,7 @@ style:
   codeblock:
     scrollbar: 0px
   font-size:
-    body: 1rem
+    body: 1.125rem
   font-family:
     logo: 'system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif'
     body: 'system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif'

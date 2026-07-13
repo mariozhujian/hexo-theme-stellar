@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "hexo-theme-stellar",
+  "name": "mariolog",
   "compatibility_date": "2026-07-13",
   "build": {
     "command": "npm ci && npm run g",
