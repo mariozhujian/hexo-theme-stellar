@@ -32,7 +32,7 @@ menubar:
       theme: '#F44336'
       icon: solar:chat-square-like-bold-duotone
       title: 社交
-      url: /friends/
+      url: /about/
 
 site_tree:
   home:
