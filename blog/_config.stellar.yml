@@ -45,7 +45,7 @@ site_tree:
     menu_id: topic
 
 article:
-  share: [wechat, weibo, email, link]
+  share: false
 
 
 style:
