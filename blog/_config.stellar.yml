@@ -10,7 +10,7 @@ inject:
 logo:
   icon: /assets/icon.svg
   title: Mario
-  subtitle: '我的个人博客 | Designed by xaoxuu'
+  subtitle: '我的个人博客 | 长期，复利，持续'
 menubar:
   items: 
     - id: post
