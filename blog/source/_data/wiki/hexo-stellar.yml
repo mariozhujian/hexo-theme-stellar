@@ -33,3 +33,6 @@ tree:
     - articles
     - todo
     - contributors
+
+# 最近更新不显示
+index: false

@@ -1,0 +1,29 @@
+name: Java
+title: Java 学习笔记
+subtitle: 从基础语法到并发编程
+tags:
+  - Java
+  - 编程笔记
+
+icon: https://69zvfy2e8b.ucarecd.net/9a886897-2120-4289-8af8-376f02cbab58/javanotes.png
+cover: /assets/icon.svg
+coverpage: false
+
+description: 系统整理 Java 基础、集合框架、JVM 和并发编程知识。
+
+search:
+  filter: /wiki/java/
+  placeholder: 在 Java 笔记中搜索……
+
+base_dir: /wiki/java/
+
+tree:
+  '开始阅读':
+    - index
+
+  'Java 基础':
+    - basic
+    - collection
+
+  '并发编程':
+    - concurrent
