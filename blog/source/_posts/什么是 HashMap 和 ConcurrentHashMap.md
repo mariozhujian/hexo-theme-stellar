@@ -8,6 +8,7 @@ categories:
 cover: https://69zvfy2e8b.ucarecd.net/90aee3db-e29f-4e79-839f-5de4f632e0d0/hashmap.png
 ---
 
+![](https://69zvfy2e8b.ucarecd.net/90aee3db-e29f-4e79-839f-5de4f632e0d0/hashmap.png)
 
 下面可以直接当成 **高级 Java 面试复习模板** 来背。
 核心一句话：

@@ -7,6 +7,9 @@ categories:
 
 cover: https://69zvfy2e8b.ucarecd.net/cf6ef270-1ddb-4de6-9331-c0aa8295ee95/lockcover.png
 ---
+
+![](https://69zvfy2e8b.ucarecd.net/cf6ef270-1ddb-4de6-9331-c0aa8295ee95/lockcover.png)
+
 1. 它解决什么问题？ 
 2. 底层原理是什么？ 
 3. 常见问题是什么？ 
