@@ -49,6 +49,7 @@ article:
 
 
 style:
+  prefers_theme: auto
   header_prefix:
     h2: ''
     h3: ''
@@ -91,3 +92,14 @@ plugins:
     default_text: 复制
     success_text: 已复制
     toast: 复制成功
+
+footer:
+  social:
+    theme:
+      icon: default:theme
+      title: 切换显示模式
+      onclick: switchTheme()
+    github:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/08a41b181ce68.svg"/>'
+      url: https://github.com/mariozhujian
+  
